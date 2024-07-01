@@ -1,23 +1,24 @@
+import os
 from setuptools import setup, find_packages
 
 setup(
-    name='devxhub_python',
+    name='dxh-py',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        'cookiecutter>=1.7.0'
+        'cookiecutter>=2.0.0'
     ],
     entry_points={
         'console_scripts': [
-            'devxhub_python=devxhub_python.cli:main',
+            'dxh-py=dxh_py.cli:main',
         ],
     },
-    author='Jamil Rayhan',
-    author_email='jamil.rayhan.bsmrstu@gmail.com',
-    description='A custom CLI for generating Django projects with Cookiecutter templates',
-    long_description=open('README.md').read(),
+    author='DEVxHUB',
+    author_email='tech@devxhub.com',
+    description='A python CLI to generate pypi packages.',
+    long_description=open('README.md').read() if os.path.exists('README.md') else '',
     long_description_content_type='text/markdown',
-    url='https://github.com/git-jamil/devxhub_python',
+    url='https://github.com/devxhub/dxh-py',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
@@ -25,4 +26,8 @@ setup(
     ],
     license='MIT',
     python_requires='>=3.6',
+    include_package_data=True,
+    package_data={
+        '': ['LICENSE.md'],
+    },
 )
