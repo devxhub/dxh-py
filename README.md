@@ -11,5 +11,5 @@ pip install dxh-py
 ## Usage
 
 ```sh
-dxh-py https://github.com/devxhub/django-boilerplate
+dxh_py https://github.com/devxhub/django-boilerplate
 ```
