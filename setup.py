@@ -2,7 +2,7 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-    name='dxh-py',
+    name='dxh_py',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dxh-py=dxh_py.cli:main',
+            'dxh_py=dxh_py.cli:main',
         ],
     },
     author='DEVxHUB',
