@@ -3,7 +3,7 @@ from cookiecutter.main import cookiecutter
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: dxh-py <template_url>")
+        print("Usage: dxh_py <template_url>")
         sys.exit(1)
 
     template_url = sys.argv[1]
