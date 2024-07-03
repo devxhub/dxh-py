@@ -3,7 +3,7 @@
 Choice Variables
 ----------------
 
-*New in dxh_py 1.1*
+*New in dxh_py 0.0.3*
 
 Choice variables provide different choices when creating a project.
 Depending on a user's choice the template renders things differently.

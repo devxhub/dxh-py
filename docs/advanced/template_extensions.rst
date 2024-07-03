@@ -3,7 +3,7 @@
 Template Extensions
 -------------------
 
-*New in dxh_py 1.4*
+*New in dxh_py 0.0.3*
 
 A template may extend the dxh_py environment with custom `Jinja2 extensions`_.
 It can add extra filters, tests, globals or even extend the parser.
@@ -73,7 +73,7 @@ Would output:
 Random string extension
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-*New in dxh_py 1.7*
+*New in dxh_py 0.0.3*
 
 The ``dxh_py.extensions.RandomStringExtension`` extension provides a ``random_ascii_string`` method in templates that generates a random fixed-length string, optionally with punctuation.
 
@@ -129,7 +129,7 @@ For example to change the output from ``it-s-a-random-version``` to ``it_s_a_ran
 UUID4 extension
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-*New in dxh_py 1.x*
+*New in dxh_py 0.0.3*
 
 The ``dxh_py.extensions.UUIDExtension`` extension provides a ``uuid4()``
 method in templates that generates a uuid4.

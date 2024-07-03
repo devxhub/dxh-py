@@ -3,7 +3,7 @@
 Local Extensions
 ----------------
 
-*New in dxh_py 2.1*
+*New in dxh_py 0.0.3*
 
 A template may extend the dxh_py environment with local extensions.
 These can be part of the template itself, providing it with more sophisticated custom tags and filters.

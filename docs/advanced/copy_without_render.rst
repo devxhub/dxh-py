@@ -3,7 +3,7 @@
 Copy without Render
 -------------------
 
-*New in dxh_py 1.1*
+*New in dxh_py 0.0.3*
 
 To avoid rendering directories and files of a dxh_py, the ``_copy_without_render`` key can be used in the ``dxh_py.json``.
 The value of this key accepts a list of Unix shell-style wildcards:

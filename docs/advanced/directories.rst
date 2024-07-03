@@ -3,7 +3,7 @@
 Organizing dxh_pys in directories
 ---------------------------------------
 
-*New in dxh_py 1.7*
+*New in dxh_py 0.0.3*
 
 dxh_py introduces the ability to organize several templates in one repository or zip file, separating them by directories.
 This allows using symlinks for general files.

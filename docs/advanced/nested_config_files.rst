@@ -3,7 +3,7 @@
 Nested configuration files
 --------------------------
 
-*New in dxh_py 2.5.0*
+*New in dxh_py 0.0.3*
 
 If you wish to create a hierarchy of templates and use dxh_py to choose among them,
 you need just to specify the key ``templates`` in the main configuration file to reach
@@ -59,7 +59,7 @@ Once a template is chosen, for example ``1``, it will continue to ask the info r
 Old Format
 ++++++++++
 
-*New in dxh_py 2.2.0*
+*New in dxh_py 0.0.3*
 
 In the main ``dxh_py.json`` add a `template` key with the following format:
 

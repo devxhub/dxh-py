@@ -3,12 +3,12 @@
 User Config
 ===========
 
-*New in dxh_py 0.7*
+*New in dxh_py 0.0.3*
 
 If you use dxh_py a lot, you'll find it useful to have a user config file.
 By default dxh_py tries to retrieve settings from a `.dxh_pyrc` file in your home directory.
 
-*New in dxh_py 1.3*
+*New in dxh_py 0.0.3*
 
 You can also specify a config file on the command line via ``--config-file``.
 
