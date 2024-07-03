@@ -1,8 +1,7 @@
 """Documentation build configuration file."""
 
 #
-# dxh_py documentation build configuration file, created by
-# sphinx-quickstart on Thu Jul 11 11:31:49 2013.
+# dxh_py documentation build configuration file.
 #
 # This file is execfile()d with the current directory set to its containing
 # dir.
@@ -297,9 +296,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = 'dxh_py'
-epub_author = 'Audrey Roy'
-epub_publisher = 'Audrey Roy and dxh_py community'
-epub_copyright = '2013-2022, Audrey Roy and dxh_py community'
+epub_author = 'DEVxHUB'
+epub_publisher = 'DEVxHUB and dxh_py community'
+epub_copyright = '2024- , DEVxHUB and dxh_py community'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
