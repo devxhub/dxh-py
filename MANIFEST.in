@@ -1,0 +1,21 @@
+include AUTHORS.md
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.md
+include HISTORY.md
+include LICENSE.md
+include README.md
+include dxh_py/VERSION.txt
+
+exclude Makefile
+exclude __main__.py
+exclude .*
+exclude codecov.yml
+exclude test_requirements.txt
+exclude tox.ini
+exclude ruff.toml
+
+recursive-include tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude docs *
+recursive-exclude logo *
