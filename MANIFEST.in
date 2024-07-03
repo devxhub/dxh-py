@@ -1,0 +1,11 @@
+include LICENSE.md
+include README.md
+include dxh_py/VERSION.txt
+
+exclude Makefile
+exclude __main__.py
+exclude .*
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude docs *
