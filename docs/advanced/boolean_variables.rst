@@ -1,7 +1,7 @@
 Boolean Variables
 -----------------
 
-.. versionadded:: 2.2.0
+.. versionadded:: 0.0.3
 
 Boolean variables are used for answering True/False questions.
 
