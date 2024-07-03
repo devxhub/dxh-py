@@ -48,7 +48,6 @@ repository::
 
     $ dxh_py https://github.com/devxhub/dxh_py.git
     $ dxh_py git+ssh://git@github.com/devxhub/dxh_py.git
-    $ dxh_py hg+ssh://hg@bitbucket.org/audreyr/dxh_py
 
 You will be prompted to enter a bunch of project config values. (These are
 defined in the project's `dxh_py.json`.)

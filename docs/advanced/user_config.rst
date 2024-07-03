@@ -14,13 +14,13 @@ You can also specify a config file on the command line via ``--config-file``.
 
 .. code-block:: bash
 
-    dxh_py --config-file /home/audreyr/my-custom-config.yaml dxh_py
+    dxh_py --config-file /home/devxhub/my-custom-config.yaml dxh_py
 
 Or you can set the ``dxh_py_CONFIG`` environment variable:
 
 .. code-block:: bash
 
-    export dxh_py_CONFIG=/home/audreyr/my-custom-config.yaml
+    export dxh_py_CONFIG=/home/devxhub/my-custom-config.yaml
 
 If you wish to stick to the built-in config and not load any user config file at all, use the CLI option ``--default-config`` instead.
 Preventing dxh_py from loading user settings is crucial for writing integration tests in an isolated environment.
@@ -30,11 +30,11 @@ Example user config:
 .. code-block:: yaml
 
     default_context:
-        full_name: "Audrey Roy"
-        email: "audreyr@example.com"
-        github_username: "audreyr"
-    dxh_pys_dir: "/home/audreyr/my-custom-dxh_pys-dir/"
-    replay_dir: "/home/audreyr/my-custom-replay-dir/"
+        full_name: "DEVxHUB"
+        email: "tech@devxhub.com"
+        github_username: "devxhub"
+    dxh_pys_dir: "/home/devxhub/my-custom-dxh_pys-dir/"
+    replay_dir: "/home/devxhub/my-custom-replay-dir/"
     abbreviations:
         pp: https://github.com/devxhub/dxh_py.git
         gh: https://github.com/{0}.git
@@ -54,7 +54,7 @@ Possible settings are:
     A list of abbreviations for dxh_pys.
     Abbreviations can be simple aliases for a repo name, or can be used as a prefix, in the form ``abbr:suffix``.
     Any suffix will be inserted into the expansion in place of the text ``{0}``, using standard Python string formatting.
-    With the above aliases, you could use the ``dxh_py`` template simply by saying ``dxh_py pp``, or ``dxh_py gh:audreyr/dxh_py``.
+    With the above aliases, you could use the ``dxh_py`` template simply by saying ``dxh_py pp``, or ``dxh_py gh:devxhub/dxh_py``.
     The ``gh`` (GitHub), ``bb`` (Bitbucket), and ``gl`` (Gitlab) abbreviations shown above are actually **built in**, and can be used without defining them yourself.
 
 Read also: :ref:`injecting-extra-content`

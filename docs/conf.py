@@ -69,7 +69,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'dxh_py'
-copyright = '2013-2022, Audrey Roy and dxh_py community'
+copyright = '2024, Devxhub and dxh_py community'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -218,7 +218,7 @@ latex_documents = [
         'index',
         'dxh_py.tex',
         'dxh_py Documentation',
-        'Audrey Roy and dxh_py community',
+        'Devxhub and dxh_py community',
         'manual',
     ),
 ]
@@ -253,7 +253,7 @@ man_pages = [
         'index',
         'dxh_py',
         'dxh_py Documentation',
-        ['Audrey Roy and dxh_py community'],
+        ['Devxhub and dxh_py community'],
         1,
     )
 ]
@@ -272,7 +272,7 @@ texinfo_documents = [
         'index',
         'dxh_py',
         'dxh_py Documentation',
-        'Audrey Roy and dxh_py community',
+        'Devxhub and dxh_py community',
         'dxh_py',
         'Creates projects from project templates',
         'Miscellaneous',

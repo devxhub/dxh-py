@@ -190,7 +190,7 @@ def main(
 
     dxh_py is free and open source software, developed and managed by
     volunteers. If you would like to help out or fund the project, please get
-    in touch at https://github.com/dxh_py/dxh_py.
+    in touch at https://github.com/devxhub/dxh_py.
     """
     # Commands that should work without arguments
     if list_installed:
