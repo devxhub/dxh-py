@@ -25,6 +25,7 @@ requirements = [
     'click>=7.0,<9.0.0',
     'pyyaml>=5.3.1',
     'python-slugify>=4.0.0',
+    'typing-extensions>=4.12.1',
     'requests>=2.23.0',
     'arrow',
     'rich',

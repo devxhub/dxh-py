@@ -2,12 +2,12 @@
 Usage
 =====
 
-Grab a dxh_py template
+Grab a django-boilerplate template
 ----------------------------
 
-First, clone a dxh_py project template::
+First, clone a django-boilerplate project template::
 
-    $ git clone https://github.com/devxhub/dxh_py.git
+    $ git clone https://github.com/devxhub/django-boilerplate.git
 
 Make your changes
 -----------------
@@ -17,14 +17,14 @@ Modify the variables defined in `dxh_py.json`.
 Open up the skeleton project. If you need to change it around a bit, do so.
 
 You probably also want to create a repo, name it differently, and push it as
-your own new dxh_py project template, for handy future use.
+your own new django-boilerplate project template, for handy future use.
 
 Generate your project
 ---------------------
 
 Then generate your project from the project template::
 
-    $ dxh_py dxh_py/
+    $ dxh_py django-boilerplate/
 
 The only argument is the input directory. (The output directory is generated
 by rendering that, and it can't be the same as the input directory.)
@@ -38,16 +38,16 @@ Try it out!
 Works directly with git and hg (mercurial) repos too
 ------------------------------------------------------
 
-To create a project from the dxh_py.git repo template::
+To create a project from the django-boilerplate.git repo template::
 
-    $ dxh_py gh:devxhub/dxh_py
+    $ dxh_py gh:devxhub/django-boilerplate
 
 dxh_py knows abbreviations for Github (``gh``), Bitbucket (``bb``), and
 GitLab (``gl``) projects, but you can also give it the full URL to any
 repository::
 
-    $ dxh_py https://github.com/devxhub/dxh_py.git
-    $ dxh_py git+ssh://git@github.com/devxhub/dxh_py.git
+    $ dxh_py https://github.com/devxhub/django-boilerplate.git
+    $ dxh_py git@github.com:devxhub/django-boilerplate.git
 
 You will be prompted to enter a bunch of project config values. (These are
 defined in the project's `dxh_py.json`.)
@@ -57,7 +57,7 @@ that you entered. It will be placed in your current directory.
 
 And if you want to specify a branch you can do that with::
 
-    $ dxh_py https://github.com/devxhub/dxh_py.git --checkout develop
+    $ dxh_py https://github.com/devxhub/django-boilerplate.git --checkout develop
 
 Works with private repos
 ------------------------
@@ -75,14 +75,14 @@ on a local server::
 Works with Zip files
 --------------------
 
-You can also distribute dxh_py templates as Zip files. To use a Zip file
-template, point dxh_py at a Zip file on your local machine::
+You can also distribute django-boilerplate templates as Zip files. To use a Zip file
+template, point django-boilerplate at a Zip file on your local machine::
 
-    $ dxh_py /path/to/template.zip
+    $ dxh_py /path/to/django-boilerplate.zip
 
 Or, if the Zip file is online::
 
-    $ dxh_py https://example.com/path/to/template.zip
+    $ dxh_py https://example.com/path/to/django-boilerplate.zip
 
 If the template has already been downloaded, or a template with the same name
 has already been downloaded, you will be prompted to delete the existing
@@ -94,9 +94,9 @@ name of the template. The name of the zipfile doesn't have to match the name of
 the template - for example, you can label a zipfile with a version number, but
 omit the version number from the directory inside the Zip file.
 
-If you want to see an example Zipfile, find any dxh_py repository on Github
+If you want to see an example Zipfile, find any django-boilerplate repository on Github
 and download that repository as a zip file - Github repository downloads are in
-a valid format for dxh_py.
+a valid format for django-boilerplate.
 
 Password-protected Zip files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,7 +112,7 @@ whenever a password is required.
 Keeping your dxh_pys organized
 ------------------------------------
 
-As of the dxh_py 0.7.0 release:
+As of the dxh_py 0.4.0 release:
 
 * Whenever you generate a project with a dxh_py, the resulting project
   is output to your current directory.
