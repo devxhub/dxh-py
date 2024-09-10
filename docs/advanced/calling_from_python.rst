@@ -13,7 +13,7 @@ You can use dxh_py from Python:
     dxh_py('dxh_py/')
 
     # Create project from the dxh_py.git repo template
-    dxh_py('https://github.com/devxhub/dxh_py.git')
+    dxh_py('https://github.com/devxhub/dxh-py.git')
 
 This is useful if, for example, you're writing a web framework and need to provide developers with a tool similar to `django-admin.py startproject` or `npm init`.
 
